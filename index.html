@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Kwitter	<sup>
+	 <img src="data:image/png;base64,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" height="40" width="40">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="https://images-na.ssl-images-amazon.com/images/I/71an3gGqHWL.png" class="logo">
+		<h3 >See what is happening in the world right now</h3>
+		<h4 >Join Kwitter today</h4>
+		<div class="form-group">
+		  <label >User Name:</label>
+
+		  <input type="text" id="user_name" placeholder="username" class="form-control"> 
+
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="adduser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+</body>
+</html>
